@@ -39,7 +39,7 @@ print(mañana)
 sin_incidentes = df[ df['incidentes'] == 0 ]
 print('Sin incidentes:')
 print(sin_incidentes)
-#Separación para obtener distinta respuesta 
+#Separación para obtener distinta respuesta.
 promedio_temp = df.groupby('reactor')['temperatura'].mean()
 print('Temperatura promedio por reactor:')
 print(promedio_temp)
