@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 # Diccionario de Python: clave = nombre de columna, lista = datos
 datos = {
@@ -52,7 +51,6 @@ print(ef_turno)
 inc_reactor = df.groupby('reactor')['incidentes'].sum()
 print('Total de incidentes por reactor:')
 print(inc_reactor)
-=======
 import pandas as pd
 # Diccionario de Python: clave = nombre de columna, lista = datos
 datos = {
@@ -106,4 +104,3 @@ print(ef_turno)
 inc_reactor = df.groupby('reactor')['incidentes'].sum()
 print('Total de incidentes por reactor:')
 print(inc_reactor)
->>>>>>> 3322c5bf13b7b4776168dcd0ec4025d52336f4a5
